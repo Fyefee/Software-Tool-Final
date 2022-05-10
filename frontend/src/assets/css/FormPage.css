@@ -1,0 +1,19 @@
+.logo {
+    max-width: 3rem !important;
+    height: auto;
+}
+
+.logoHeader {
+    max-width: 3.5rem !important;
+    height: auto;
+}
+
+.textHeader {
+    color :#18aaf8;
+}
+
+.errorText {
+    @apply mt-1;
+    color: red;
+    font-size: 0.8rem;
+}
