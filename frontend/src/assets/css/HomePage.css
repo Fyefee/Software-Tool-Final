@@ -1,0 +1,52 @@
+.logo {
+    max-width: 38px !important;
+}
+
+.languageButton {
+    @apply px-1 py-1;
+    color: #19aaf8;
+    font-size: 1.1rem;
+    border: 1px solid #19aaf8;
+    border-radius: 2rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .largeBanner {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .smallBanner {
+        display: none;
+    }
+}
+
+.selectContainer {
+    max-width: 800;
+}
+
+.selectBox {
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    padding: 0.6rem;
+}
+
+.selectButton {
+    color: #007AD0;
+    text-decoration: underline;
+}
+
+.selected {
+    background-color: #007AD0;
+    color: white !important;
+}
+
+.vaccineText {
+    color: #FF648C;
+}
+
+.registerButton {
+    height: 2.5rem;
+    font-family: Prompt !important;
+}
