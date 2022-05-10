@@ -1,0 +1,15 @@
+services:
+  react-app:
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+  express-app:
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - MONGODB_URI=mongodb+srv://JeffyDB:34931j@cluster0.xfiz9.mongodb.net/SoftwareTool?retryWrites=true&w=majority
